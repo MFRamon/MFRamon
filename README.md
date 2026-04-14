@@ -2,8 +2,6 @@
 
 Senior Software Engineer with extensive experience on various industries including online education, consumer goods, entertainment/gaming, real state. Taking full ownership of the projects that I work on I ensure that the development is executed with high-quality, maintainability and thorough thinking throughout the design phase of the solution.
 
-I enjoy the development of systems, improving existing architectures while doing well-thought decisions, I also enjoy sharing knowledge with my peers to help leveling up as engineers.
-
 ```typescript
 class MFRamon extends Person {
   name: string = "Ramon";
