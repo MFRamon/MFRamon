@@ -44,14 +44,6 @@ class MFRamon extends Person {
     return ["Github Copilot", "Claude AI", "Cursor"];
   }
 
-  cloud() {
-    return ["AWS"];
-  }
-
-  currentLocation() {
-    return "Mexico";
-  }
-
   currently() {
     return {
       learning: ["Amazon Cloud Practioner"],
