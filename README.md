@@ -1,16 +1,67 @@
-## Hi there 👋
+### Hello
 
-<!--
-**MFRamon/MFRamon** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Software Engineer
 
-Here are some ideas to get you started:
+```typescript
+class MFRamon extends Person {
+  name: string = "Ramon";
+  work: string[] = [];
+  age: number = 28;
+  education: string[] = ["Software and Systems Engineering in La Salle Bajio"];
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+  languages() {
+    return {
+      human: ["Spanish (Native)", "English (C1)", "German (A1.2)"],
+      programming: ["Javascript", "Typescript", "Ruby", "Java"],
+    };
+  }
+
+  frameworks() {
+    return ["React.js", "Vue.js", "Node", "Express", "Next.js", "Nest.js"];
+  }
+
+  miscellaneous() {
+    return [
+      "Material UI",
+      "Bootstrap",
+      "Tailwind CSS",
+      "Vite",
+      "Jenkins",
+      "Git",
+      "Perforce",
+      "Vite",
+    ];
+  }
+
+  observability() {
+    return ["Splunk", "Appdynamics"];
+  }
+
+  databases() {
+    return ["MongoDB", "MySQL", "MSSQL"];
+  }
+
+  ai() {
+    return ["Github Copilot", "Claude AI", "Cursor"];
+  }
+
+  cloud() {
+    return ["AWS"];
+  }
+
+  currentLocation() {
+    return "Mexico";
+  }
+
+  currently() {
+    return {
+      learning: ["Amazon Cloud Practioner"],
+    };
+  }
+}
+```
+
+#### Reach me out at:
+
+[Linkedin](https://www.linkedin.com/in/mframon/) <br/>
+[Send me an email](mailto:ramon.manfig@gmail.com)
