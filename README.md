@@ -1,7 +1,7 @@
 ```typescript
 class MFRamon extends Person {
   name: string = "Ramon";
-  work: string[] = [];
+  work: string = "Softserve";
   age: number = 28;
   education: string[] = ["Software and Systems Engineering in La Salle Bajio"];
 
